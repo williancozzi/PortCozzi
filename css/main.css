@@ -648,12 +648,14 @@ body {
 
 .item-box .item-data {
   margin-top: 6px;
+  
 }
 
 .item-box .item-data h3 {
   line-height: 1em;
   margin: 3px 0px 0px 0px;
   font-size: 1em;
+
 }
 
 .item-box .item-data p {
@@ -661,6 +663,15 @@ body {
   font-size: 12px;
   color: #2E8B57;
   text-decoration-style: bold;
+}
+
+.item-box .item-data a {
+  display: flex;
+  align-items: center;
+}
+
+.item-box .item-data a span {
+  margin-left: 6px;
 }
 
 /* WorkExperience */
