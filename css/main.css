@@ -274,7 +274,7 @@ a {
 a:hover, a:focus, a:active {
   text-decoration: none;
   border: none;
-  color: #2E8B57;
+  color: #009af1;
 }
 
 /* MEDIA */
@@ -323,14 +323,14 @@ del {
 }
 
 ::-moz-selection {
-  background: #2E8B57;
+  background: #009af1;
   color: #fff;
   text-shadow: none
 }
 
 /* selected text */
 ::selection {
-  background: #2E8B57;
+  background: #009af1;
   color: #fff;
   text-shadow: none
 }
@@ -472,6 +472,7 @@ body {
 /* Header */
 #header {
   margin-bottom: 2em;
+  text-shadow: 1px 5px 2px black;
 }
 
 #header #logo {
@@ -507,7 +508,7 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #009af1;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -549,7 +550,7 @@ body {
 
 .tab a.active {
   padding-top: 10px;
-  color: #2E8B57;
+  color: #009af1;
 }
 
 .tab a i {
@@ -590,7 +591,7 @@ body {
 }
 
 .info h4, #header h4 {
-  color: #59BD85;
+  color: #009af1;
   margin-bottom: 2em;
 }
 
@@ -661,7 +662,7 @@ body {
 .item-box .item-data p {
   margin: 0px;
   font-size: 12px;
-  color: #2E8B57;
+  color: #009af1;
   text-decoration-style: bold;
 }
 
@@ -807,7 +808,7 @@ body {
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #009af1;
 }
 
 .label[href]:hover,
@@ -836,12 +837,12 @@ body {
 }
 
 .label-success {
-  background-color: #5cb85c;
+  background-color: #009af1;
 }
 
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #009af1;
 }
 
 .label-warning {
@@ -865,7 +866,7 @@ body {
 .project-container {
   max-width: 240px;
   border-radius: 5px;
-  background-color: #5cb85c;
+  background-color: #009af1;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
@@ -910,7 +911,7 @@ input[type=text], .project_description, input[type=url] {
 
 /* Set a style for all buttons */
 .project_submit {
-  background-color: #4CAF50;
+  background-color: #009af1;
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;
@@ -1025,7 +1026,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .emerald>span {
-  background-color: #2E8B57;
+  background-color: #009af1;
 }
 
 .carrot>span {
@@ -1274,7 +1275,7 @@ Change widths as necessary
 }
 
 .project-div {
-  background-color: #4AB478;
+  background-color: #009af1;
   text-align: center;
   padding: 10px;
 }
